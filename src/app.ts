@@ -1,5 +1,5 @@
 var a;
 
-const b:number = "a";
+const b = "a";
 
-console.log("test")
+console.log(b)
