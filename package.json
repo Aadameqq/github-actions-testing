@@ -10,8 +10,9 @@
     "start:dev": "nodemon .",
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev --name migration",
-    "lint": "npx eslint ./src",
-    "test": "jest"
+    "lint": "npx eslint src/**",
+    "test": "jest",
+    "prettier-check": "npx prettier --check ./src"
   },
   "keywords": [],
   "author": "",

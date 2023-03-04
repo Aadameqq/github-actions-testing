@@ -11,7 +11,7 @@ services:
     env_file:
       - .docker.env
     ports:
-      - "5500:5500"
+      - '5500:5500'
     environment:
       - PORT=5500
   migration:
@@ -32,13 +32,13 @@ services:
     env_file:
       - .docker.env
     healthcheck:
-      test: [ "CMD-SHELL", "pg_isready" ]
+      test: ['CMD-SHELL', 'pg_isready']
       interval: 10s
       timeout: 5s
       retries: 5
     ports:
-        - "5432:5432"
+      - '5432:5432'
     volumes:
-        - blog-cms-api-data:/var/lib/postgresql/data
+      - blog-cms-api-data:/var/lib/postgresql/data
 volumes:
   blog-cms-api-data:

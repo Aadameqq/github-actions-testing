@@ -5,8 +5,7 @@
     "rootDir": "./src",
     "moduleResolution": "node",
     "baseUrl": "./src",
-    "paths": {
-    },
+    "paths": {},
     "allowJs": false,
     "outDir": "./dist",
     "newLine": "crlf",
