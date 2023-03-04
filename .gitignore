@@ -1,0 +1,6 @@
+swagger
+node_modules
+.env
+dist
+.docker.env
+
