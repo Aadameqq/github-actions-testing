@@ -1,5 +1,5 @@
 var a;
 
-const b = "a";
+const b = 'a';
 
-console.log(b)
+console.log(b);
